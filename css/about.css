@@ -1,0 +1,137 @@
+
+.about-hero {
+  background: url('../images/about.jpg') no-repeat center center/cover;
+  padding: 100px 20px 50px;
+    text-align: center;
+  color: #e53935;
+}
+.about-hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  color: white;
+  font-size: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  text-shadow: 1px 1px 2px black;
+}
+
+.about-section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 16px;
+  border-radius: 48px 48px 0 0;
+}
+
+.red-title {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+footer{
+    padding: 40px 20px;
+    background-color:#f8f6f6 ;
+    border-radius: 30px 30px 0 0;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer-links .column{
+    margin: 10px;
+    min-width: 200px;
+}
+.footer-links h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li{
+    margin-bottom: 6px;
+}
+.footer-links ul li a{
+    color: #000;
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* programs page */
+.programs-hero{
+  background: url('../images/program.jpg') no-repeat center center/cover;
+  padding: 60px 20px;
+  text-align: center;
+  color: red;
+}
+
+.programs-hero h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.programs-hero .highlight {
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 10px;
+}
+
+.alt-bg {
+  background: url('../images/admission.jpg') no-repeat center center/cover;
+  color: black;
+}
+
+.program-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 20px;
+  gap: 30px;
+  background: #fff;
+}
+
+.program-list .arrow{
+    color: #e53935;
+    font-weight: bold;
+}
+
+.faculty {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.faculty h3 {
+  color: orangered;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.faculty ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.faculty ul li {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 15px;
+}
