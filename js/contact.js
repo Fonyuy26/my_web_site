@@ -1,11 +1,11 @@
 (function() {
-    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS Public Key
+    emailjs.init("S_P2zGuS3NuI3fw3p"); // Replace with your EmailJS Public Key
 })();
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+    emailjs.sendForm("service_u26zrea", "template_rcra1ii", this)
       .then(function() {
           alert("Message sent successfully!");
           document.getElementById("contactForm").reset();
