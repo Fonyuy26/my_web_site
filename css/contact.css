@@ -145,4 +145,33 @@ form:hover {
     animation: shake 0.5s;
   color: #007bff;
 }
+@keyframes moveAndColor {
+  0% {
+    transform: translateX(0);
+    color: #000; /* Black */
+  }
+  25% {
+    transform: translateX(20px);
+    color: #1e90ff; /* Blue */
+  }
+  50% {
+    transform: translateX(-20px);
+    color: #ff6347; /* Tomato */
+  }
+  75% {
+    transform: translateX(10px);
+    color: #32cd32; /* Green */
+  }
+  100% {
+    transform: translateX(0);
+    color: #000; /* Back to black */
+  }
+}
+
+.moving-text {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  animation: moveAndColor 3s infinite ease-in-out;
+}
 

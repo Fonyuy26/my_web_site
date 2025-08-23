@@ -4,7 +4,7 @@
     emailjs.init("S_P2zGuS3NuI3fw3p"); 
   })();
 
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
     emailjs.sendForm("service_u26zrea", "template_rcra1ii", this)
